@@ -1,6 +1,6 @@
 # C Compiler
 
-A complete compiler for a simplified C language with GUI, built in Python.
+A complete compiler for a C language with GUI, built in Python.
 
 ## Features
 
@@ -32,7 +32,9 @@ A complete compiler for a simplified C language with GUI, built in Python.
 
 ## Supported Syntax
 
-**Supported**: `int`, `float`, `if-else`, `while`, `printf`, arithmetic (`+`,`-`,`*`,`/`,`%`), comparisons (`==`,`!=`,`<`,`>`,`<=`,`>=`)
+**Keywords**: `int`, `float`, `if-else`, `while`, `printf`, 'include', 'studio' 
+arithmetic (`+`,`-`,`*`,`/`,`%`), 
+comparisons (`==`,`!=`,`<`,`>`,`<=`,`>=`)
 
 ## Project Structure
 
@@ -87,9 +89,7 @@ A complete compiler for a simplified C language with GUI, built in Python.
 ## Compiler Pipeline
 
 ```
-Source Code → Lexer → Parser → Semantic Analyzer → IR Generator → Optimizer → Code Generator
-                                                                                    ↓
-                                                              Pseudocode / Assembly / Execution
+Source Code → Lexer → Parser → Semantic Analyzer → IR Generator → Optimizer → Code Generator (Pseudocode / Assembly / Execution)
 ```
 
 ### 8 Output Modes
