@@ -1,0 +1,19 @@
+# Mini C Compiler - Requirements
+# ================================
+# This project uses only Python standard library modules.
+# No external dependencies are required.
+#
+# Required Python Version: 3.7+
+#
+# Built-in modules used:
+# - tkinter (GUI framework)
+# - re (Regular expressions for lexer)
+#
+# Installation:
+# Just run: python main.py
+#
+# Note: tkinter comes pre-installed with Python on Windows and macOS.
+# On Linux, you may need to install it:
+#   Ubuntu/Debian: sudo apt-get install python3-tk
+#   Fedora: sudo dnf install python3-tkinter
+#   Arch: sudo pacman -S tk
